@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/dev/', // Update this line to match the subdirectory
+  base: './', // Add this line
   plugins: [
     vue(),
   ],
